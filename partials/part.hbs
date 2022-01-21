@@ -1,0 +1,18 @@
+<div>
+  <input type="text" value="{{name}}">
+  <table>
+    <tr>
+      <td>{{ param1.hello }}{{param1}}</td>
+      <td>{{ param2 }}</td>
+      <td>partial</td>
+    </tr>
+  </table>
+  {{#if c }}
+  <div style="color: {{c}}"></div>
+  {{/if}}
+  {{!-- {{#if part2 }}
+  {{> part2 }} --}}
+  {{!-- {{/if}} --}}
+  {{ part2 }}
+  {{!-- {{getHeader @part2 }} --}}
+</div>
